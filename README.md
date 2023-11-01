@@ -1,6 +1,8 @@
-# 6T_SRAM_MemoryDesign
-## DESIGN OF 4X4 SRAM MEMORY ARRAY
+# 6T SRAM Memory Design
 
+## Design of 4x4 SRAM Memory Array
+
+![SRAM Cell](https://github.com/ManishPatla/6T_sram_MemoryDesign/assets/109287423/b35b1a7a-8e33-4aeb-9dc4-2f3459776175)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -13,15 +15,12 @@
 
 ## Introduction
 
-SRAM (Static Random Access Memory) is a type of semiconductor memory widely used in digital electronic devices. It is different from other types of memory like DRAM and is used as cache memory in computers and various embedded systems. 
+**Static Random Access Memory (SRAM)** is a type of semiconductor memory used in digital electronic devices. It is widely employed in various applications, including computers and embedded systems.
 
+The two essential requirements for SRAM cell design are:
+- Data-read operation without data destruction.
+- Modification of stored information during the data-write phase.
 
-![image](https://github.com/ManishPatla/6T_sram_MemoryDesign/assets/109287423/b35b1a7a-8e33-4aeb-9dc4-2f3459776175)
-
-
-The two basic requirements which dictate the W/L ratios are:
-- The data-read operation should not destroy the stored information in SRAM cell.
-- The cell should allow the modification of the stored information during the data-write phase.
 
 ### Problem Statement and Implementation:
 
@@ -138,4 +137,3 @@ Write driver circuit is responsible to write the data onto the bit lines BL and 
 
 ### Conclusion
 In our project, we have a 6T SRAM cell along with its peripherals (Pre-charge circuit, Isolation Circuit, Sense amplifier, and Write driver circuit). We have measured the Static Noise margin for the Hold state and Read state of the SRAM cell. We have finally designed a 2x2 Memory array and have performed the Write and Read operation on each cell.
-
